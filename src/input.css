@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-container {
+  @apply m-auto w-full max-w-screen-2xl p-4;
+}
+
+.full-width {
+  margin-bottom: 100vw;
+  width: 100vw;
+  margin-inline-start: 50%;
+  transform: translateX(-50%);
+}
+
+.full-width-escape {
+  margin-bottom: initial;
+  width: initial;
+  margin-inline-start: initial;
+  transform: initial;
+}
